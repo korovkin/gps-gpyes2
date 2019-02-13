@@ -3,6 +3,8 @@ playing with the Stratux GPYes 2.0 u-blox 8 GPS unit.
 
 ## example:
 
+playing with [Stratux GPYes 2.0 u-blox 8 GPS](https://www.amazon.com/gp/product/B0716BK5NT) plugged into a MacBook Pro.
+
 ```
 go run main.go -port_name /dev/tty.usbmodem14101
 
