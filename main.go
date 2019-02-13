@@ -80,10 +80,10 @@ func main() {
 
 			for _, sat := range m.Info {
 				log.Println("      SAT:",
-					"NUM:", sat.SVPRNNumber,
-					"SNR:", sat.SNR,
-					"ELEV:", sat.Elevation,
-					"AZ:", sat.Azimuth,
+					fmt.Sprintf("%4d", sat.SVPRNNumber),
+					"SNR:", fmt.Sprintf("%5d", sat.SNR),
+					"ELEV:", fmt.Sprintf("%5d", sat.Elevation),
+					"AZ:", fmt.Sprintf("%5d", sat.Azimuth),
 				)
 			}
 		}
